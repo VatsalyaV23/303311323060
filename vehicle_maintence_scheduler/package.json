@@ -1,0 +1,19 @@
+{
+  "name": "vehicle_maintenance_scheduler",
+  "version": "1.0.0",
+  "description": "AffordMed Backend Track Vehicle Maintenance Scheduler",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
